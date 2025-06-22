@@ -6,7 +6,7 @@ public class Main {
         context.makePayment(1000);
 
         
-        context.setStrategy(new PayPalPayment("nithu@example.com"));
+        context.setStrategy(new PayPalPayment("nithu@gmail.com"));
         context.makePayment(750);
     }
 }
