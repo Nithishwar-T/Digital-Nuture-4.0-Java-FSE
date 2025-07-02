@@ -34,3 +34,7 @@ bin/
 
 # Windows system files
 Thumbs.db
+
+target/
+*.class
+*.log
