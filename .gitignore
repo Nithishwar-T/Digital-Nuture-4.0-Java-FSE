@@ -1,40 +1,60 @@
-# Ignore compiled Java class files
+# ====================
+# Java & Maven
+# ====================
 *.class
+*.jar
+*.war
+*.ear
+target/
 
-# Ignore build output folders
+# ====================
+# Build directories
+# ====================
 bin/
 out/
 build/
-target/
 
-# Ignore logs and temporary files
+# ====================
+# Logs and temp files
+# ====================
 *.log
 *.tmp
+*.bak
+*.swp
 *~
+hs_err_pid*
 
-# Ignore IDE/editor folders and files
+# ====================
+# IDEs
+# ====================
 
 # IntelliJ IDEA
 .idea/
 *.iml
 *.iws
-out/
 
 # Eclipse
-.project
 .classpath
+.project
 .settings/
-bin/
 
 # VS Code
 .vscode/
 
-# Mac system files
+# ====================
+# OS System Files
+# ====================
 .DS_Store
-
-# Windows system files
 Thumbs.db
 
-target/
-*.class
-*.log
+# ====================
+# Optional Spring-specific exclusions
+# ====================
+# (Remove this if your XML configs don't contain sensitive info)
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+# ====================
+# Git
+# ====================
+.gitignore
