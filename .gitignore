@@ -51,8 +51,8 @@ Thumbs.db
 # Optional Spring-specific exclusions
 # ====================
 # (Remove this if your XML configs don't contain sensitive info)
-src/main/resources/application.properties
-src/main/resources/application.yml
+# src/main/resources/application.properties
+# src/main/resources/application.yml
 
 # ====================
 # Git
